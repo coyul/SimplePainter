@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ru.coyul.painting.simplepainter.PaintingView
+        android:id="@+id/painting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLayout" />
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/btn_background"
+            android:drawableLeft="@drawable/ic_btn_clear"
+            android:paddingLeft="@dimen/ic_padding"
+            android:textColor="@color/colorText"
+            android:text="@string/action_clear"
+            />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/btn_background"
+            android:drawableLeft="@drawable/ic_btn_save"
+            android:paddingLeft="@dimen/ic_padding"
+            android:textColor="@color/colorText"
+            android:text="@string/action_save"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

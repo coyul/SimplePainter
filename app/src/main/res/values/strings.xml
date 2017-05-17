@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple Painter</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_save">Save</string>
+
+    <string name="file_save">Picture was successfully saved as %1$s in %2$s</string>
+    <string name="process_save">Saving file...</string>
+    <string name="error_save">Error during file saving!</string>
+    <string name="save_file_format">\'SimplePainter-\'yyyy-MM-dd-HH-mm-ss\'.png\'</string>
+    <string name="permission_okay">Now you are able to save pictures</string>
+    <string name="permission_denied">You are not able to save pictures</string>
+
+</resources>
